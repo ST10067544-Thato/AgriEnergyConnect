@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "My Products";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">My Products</h1>
+    <p class="lead">Manage and view your products below.</p>
+    <hr class="my-4">
+</div>
+
+@if (Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Production Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Category</td>
+                    <td>@product.ProductionDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        <strong>No products saved yet.</strong>
+    </div>
+}

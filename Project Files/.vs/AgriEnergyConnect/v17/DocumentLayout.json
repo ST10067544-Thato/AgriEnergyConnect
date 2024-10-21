@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\views\\farmer\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:views\\farmer\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\views\\employee\\viewfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:views\\employee\\viewfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|c:\\users\\lab_services_student\\documents\\github\\prog7311-poe\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9169EE80-F39D-4E36-87EB-0013A333283A}|AgriEnergyConnect.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T22:45:26.159Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T23:07:29.981Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewFarmers.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Employee\\ViewFarmers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\ViewFarmers.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Employee\\ViewFarmers.cshtml",
+              "RelativeToolTip": "Views\\Employee\\ViewFarmers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T19:48:53.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FarmerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Controllers\\FarmerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FarmerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Controllers\\FarmerController.cs",
+              "RelativeToolTip": "Controllers\\FarmerController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwE4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T19:48:05.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T19:48:03.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Farmer\\ViewProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Farmer\\ViewProducts.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Farmer\\ViewProducts.cshtml",
+              "RelativeToolTip": "Views\\Farmer\\ViewProducts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T19:45:43.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T21:55:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\custom.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "wwwroot\\css\\custom.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T15:18:12.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG7311-POE\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T23:17:09.103Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

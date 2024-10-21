@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Farmer>
+
+@{
+    ViewData["Title"] = "View Farmers";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">View Farmers</h1>
+    <p class="lead">Manage and view all farmers below.</p>
+    <hr class="my-4">
+</div>
+
+@if (Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Contact Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var farmer in Model)
+            {
+                <tr>
+                    <td>@farmer.Name</td>
+                    <td>@farmer.ContactInfo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        <strong>No farmers found.</strong>
+    </div>
+}

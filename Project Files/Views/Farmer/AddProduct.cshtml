@@ -1,0 +1,65 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/custom.css" />
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Add Product</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="AddProduct" method="post" class="needs-validation" novalidate>
+                <div class="form-group">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Category" class="form-label"></label>
+                    <select asp-for="Category" class="form-control" required>
+                        <option value="">Select Category</option>
+                        <option value="Meat">Meat</option>
+                        <option value="Fruit">Fruit</option>
+                        <option value="Vegetable">Vegetable</option>
+                    </select>
+                    <span asp-validation-for="Category" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductionDate" class="form-label"></label>
+                    <input asp-for="ProductionDate" class="form-control" type="date" required />
+                    <span asp-validation-for="ProductionDate" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Custom JavaScript to add Bootstrap validation styles to the form
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}

@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .full-height {
+        height: 80vh;
+    }
+</style>
+
+<div class="container-fluid d-flex justify-content-center align-items-center full-height">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Agri-Energy Connect!</h1>
+
+        <p class="lead">A platform that bridges the gap between the agricultural sector and green energy technology providers.</p>
+        <hr class="my-4">
+
+        <p>Get started by logging in or registering.</p>
+
+        <div>
+            <a class="btn btn-primary btn-lg mx-2" id="login" asp-area="Identity" asp-page="/Account/Login" role="button">Login</a>
+            <a class="btn btn-secondary btn-lg mx-2" id="register" asp-area="Identity" asp-page="/Account/Register" role="button">Register</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Custom scripts for this page
+    </script>
+}

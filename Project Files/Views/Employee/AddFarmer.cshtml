@@ -1,0 +1,82 @@
+﻿@model RegisterFarmerViewModel
+
+@{
+    ViewData["Title"] = "Add Farmer";
+}
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+</style>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title text-center">Add Farmer</h2>
+            <hr />
+            <form asp-action="AddFarmer" method="post">
+                <div class="form-group">
+                    <label asp-for="FullName"></label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <div class="input-group">
+                        <input asp-for="Password" class="form-control" readonly />
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-secondary" id="generatePassword">Generate New Password</button>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Create User</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('generatePassword').addEventListener('click', function () {
+            fetch('/Employee/GeneratePassword')
+                .then(response => response.json())
+                .then(data => {
+                    document.querySelector('input[name="Password"]').value = data.password;
+                })
+                .catch(error => console.error('Error generating password:', error));
+        });
+    </script>
+}

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Filter Products";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title text-center">Filter Products</h2>
+            <hr />
+            <form method="get" asp-action="FilterProducts">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="category">Category</label>
+                        <select name="category" class="form-control">
+                            <option value="">All</option>
+                            <option value="Meat">Meat</option>
+                            <option value="Fruit">Fruit</option>
+                            <option value="Vegetable">Vegetable</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" name="startDate" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="endDate">End Date</label>
+                        <input type="date" name="endDate" class="form-control" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Filter</button>
+            </form>
+            <hr />
+            @if (Model != null && Model.Any())
+            {
+                <table class="table table-striped mt-4">
+                    <thead>
+                        <tr>
+                            <th>Farmer</th>
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>Production Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model)
+                        {
+                            <tr>
+                                <td>@product.Farmer.Name</td>
+                                <td>@product.Name</td>
+                                <td>@product.Category</td>
+                                <td>@product.ProductionDate.ToShortDateString()</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <div class="alert alert-info mt-4">
+                    <strong>No products found for the selected filters.</strong>
+                </div>
+            }
+        </div>
+    </div

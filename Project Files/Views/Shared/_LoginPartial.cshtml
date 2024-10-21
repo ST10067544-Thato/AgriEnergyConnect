@@ -1,0 +1,71 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<style>
+    .navbar-nav .nav-item .nav-link {
+        position: relative;
+        transition: box-shadow 0.3s;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-menu {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<ul class="navbar-nav ml-auto">
+@if (SignInManager.IsSignedIn(User))
+{
+    @if (User.IsInRole("Farmer"))
+    {
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="farmerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Farmer Actions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="farmerDropdown">
+                    <a class="dropdown-item" asp-controller="Farmer" asp-action="ViewProducts">View Your Products</a>
+                    <a class="dropdown-item" asp-controller="Farmer" asp-action="AddProduct">Add a New Product</a>
+            </div>
+        </li>
+    }
+    @if (User.IsInRole("Employee"))
+    {
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="employeeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Employee Actions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="employeeDropdown">
+                <a class="dropdown-item" asp-controller="Employee" asp-action="ViewFarmers">View All Farmers</a>
+                    <a class="dropdown-item" asp-controller="Employee" asp-action="FilterProducts">View Available Products</a>
+                    <a class="dropdown-item" asp-controller="Employee" asp-action="AddFarmer">Add a Farmer Profile</a>
+            </div>
+        </li>
+    }
+    <li class="nav-item">
+        <span id="manage" class="nav-link text-dark">Hello @UserManager.GetUserName(User)!</span>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+}
