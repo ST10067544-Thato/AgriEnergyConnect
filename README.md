@@ -1,4 +1,4 @@
-# Agri-Energy Connect Platform
+# 🌱 Agri-Energy Connect Platform 🌍
 
 ## Introduction
 Welcome to the **Agri-Energy Connect Platform**, an innovative web application designed to bridge the gap between agriculture and green energy solutions. This platform enables farmers, green energy experts, and other stakeholders to collaborate and explore sustainable solutions for the agricultural sector. This repository contains the code and documentation for the prototype developed as part of my **Programming 3A** Portfolio of Evidence assignment.
