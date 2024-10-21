@@ -27,7 +27,7 @@ Before running the project, ensure you have the following installed:
    ```bash
    dotnet restore
    ```
-4. Set up the database using the provided SQL scripts in `/Database/AgriEnergyConnect.sql`.
+4. Set up the database using the provided SQL scripts in `/Miscellaneous/AgriEnergyConnectDB.sql`.
 5. Update the database connection string in `appsettings.json` to point to your local database.
 6. Run the application by pressing `F5` in Visual Studio.
 
